@@ -1,0 +1,218 @@
+
+/* ============================================
+   PROJECT DETAIL PAGE SPECIFIC STYLES
+   For project-detail.html only
+   (Shared styles loaded via style.css)
+   ============================================ */
+
+/* ============================================
+   PROJECT HERO
+   ============================================ */
+
+.project-hero {
+    padding: 140px 0 80px;
+    background: linear-gradient(180deg, #F9FAFB 0%, white 100%);
+}
+
+.project-category {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-teal);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.project-description {
+    font-size: 1.25rem;
+    color: var(--text-gray);
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+/* ============================================
+   PROJECT INFO CARDS
+   ============================================ */
+
+.info-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    height: 100%;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.info-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-black);
+}
+
+/* ============================================
+   IMAGE GALLERY
+   ============================================ */
+
+.gallery-section {
+    padding: 80px 0;
+}
+
+.gallery-image {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.gallery-image:hover img {
+    transform: scale(1.02);
+}
+
+/* ============================================
+   CHALLENGE & SOLUTION
+   ============================================ */
+
+.challenge-section {
+    padding: 60px 0;
+}
+
+.challenge-card {
+    background: #F9FAFB;
+    border-radius: 20px;
+    padding: 40px;
+    height: 100%;
+}
+
+.challenge-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, rgba(20, 184, 166, 0.15), rgba(20, 184, 166, 0.05));
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-teal);
+    margin-bottom: 20px;
+}
+
+.challenge-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.challenge-text {
+    color: var(--text-gray);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* ============================================
+   RESULTS SECTION
+   ============================================ */
+
+.results-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--accent-teal) 0%, #0D9488 100%);
+}
+
+.result-card {
+    text-align: center;
+    padding: 32px;
+}
+
+.result-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+}
+
+.result-label {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 8px;
+}
+
+/* ============================================
+   PROJECT NAVIGATION
+   ============================================ */
+
+.project-nav {
+    padding: 60px 0;
+    border-top: 1px solid #E5E7EB;
+}
+
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-gray);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    color: var(--accent-teal);
+    gap: 12px;
+}
+
+.btn-next {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-black);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-next:hover {
+    color: var(--accent-teal);
+    gap: 12px;
+}
+
+/* ============================================
+   RESPONSIVE STYLES - Mobile/Tablet
+   ============================================ */
+
+/* Tablet */
+@media (min-width: 768px) {
+    .project-title {
+        font-size: 3.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .project-title {
+        font-size: 2rem;
+    }
+    
+    .project-description {
+        font-size: 1rem;
+    }
+}
+
