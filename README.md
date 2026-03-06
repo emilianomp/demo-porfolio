@@ -1,6 +1,6 @@
 # DesignStudio - Creative Freelance Portfolio
 
-**Author:** Emiliano Mendoza Peña  
+**Developer:** Emiliano Mendoza Peña  
 **Built with:** VSC + Blackbox AI  
 **Live Demo:** [https://demo-profile-26.netlify.app/](https://demo-profile-26.netlify.app/)
 
