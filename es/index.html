@@ -48,33 +48,112 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="geometric-pattern triangle-1"></div>
-        <div class="geometric-pattern triangle-2"></div>
-        <div class="geometric-pattern triangle-3"></div>
-        <div class="geometric-pattern triangle-4"></div>
-        <div class="geometric-pattern triangle-5"></div>
-        <div class="container text-center">
-            <div class="hero-badge">
-                <i data-lucide="award" width="16" height="16"></i>
-                Diseñador Premiado
+    <!-- Hero Section with Bootstrap 5 Carousel -->
+    <section class="hero-carousel">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <h1 class="hero-title">Creando Historias<br>Visuales que Importan</h1>
-            <p class="hero-subtitle mx-auto">Desde branding hasta UI/UX, doy vida a las ideas con creatividad y precisión. Transformemos tu visión en experiencias visuales impresionantes.</p>
-            <div class="hero-buttons justify-content-center">
-                <a href="#work" class="btn btn-primary-custom">
-                    <i data-lucide="layout-grid" width="18" height="18"></i>
-                    Ver Portafolio
-                </a>
-                <a href="#contact" class="btn btn-outline-custom">
-                    Solicitar Cotización
-                </a>
+            
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-slide">
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="award" width="16" height="16"></i>
+                                Diseñador Premiado
+                            </div>
+                            <h1 class="hero-title">Creando Historias<br>Visuales que Importan</h1>
+                            <p class="hero-subtitle mx-auto">Desde branding hasta UI/UX, doy vida a las ideas con creatividad y precisión. Transformemos tu visión en experiencias visuales impresionantes.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    Ver Portafolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Solicitar Cotización
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-slide">
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="palette" width="16" height="16"></i>
+                                Excelencia Creativa
+                            </div>
+                            <h1 class="hero-title">Transforma Tu<br>Identidad de Marca</h1>
+                            <p class="hero-subtitle mx-auto">Destácate con soluciones de branding únicas que capturan tu esencia y conectan con tu audiencia a un nivel más profundo.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    Ver Portafolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Solicitar Cotización
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="hero-slide">
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="trending-up" width="16" height="16"></i>
+                                Orientado a Resultados
+                            </div>
+                            <h1 class="hero-title">Soluciones de Diseño<br>Premiadas</h1>
+                            <p class="hero-subtitle mx-auto">Eleva tu negocio con servicios de diseño premium que impulsan el crecimiento, mejoran la experiencia del usuario y dejan una impresión duradera.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    Ver Portafolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Solicitar Cotización
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="hero-meta justify-content-center">
-                <i data-lucide="check-circle" width="16" height="16"></i>
-                Consulta gratuita • Entrega rápida
-            </div>
+            
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
     </section>
 

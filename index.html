@@ -48,35 +48,113 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <!-- Geometric Patterns -->
-        <div class="geometric-pattern triangle-1"></div>
-        <div class="geometric-pattern triangle-2"></div>
-        <div class="geometric-pattern triangle-3"></div>
-        <div class="geometric-pattern triangle-4"></div>
-        <div class="geometric-pattern triangle-5"></div>
-
-        <div class="container text-center">
-            <div class="hero-badge">
-                <i data-lucide="award" width="16" height="16"></i>
-                Award-Winning Designer
+    <!-- Hero Section with Bootstrap 5 Carousel -->
+    <section class="hero-carousel">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <h1 class="hero-title">Crafting Visual<br>Stories That Matter</h1>
-            <p class="hero-subtitle mx-auto">From branding to UI/UX, I bring ideas to life with creativity and precision. Let's transform your vision into stunning visual experiences.</p>
-            <div class="hero-buttons justify-content-center">
-                <a href="#work" class="btn btn-primary-custom">
-                    <i data-lucide="layout-grid" width="18" height="18"></i>
-                    View Portfolio
-                </a>
-                <a href="#contact" class="btn btn-outline-custom">
-                    Get Quote
-                </a>
+            
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-slide">
+                        <!-- Geometric Patterns -->
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="award" width="16" height="16"></i>
+                                Award-Winning Designer
+                            </div>
+                            <h1 class="hero-title">Crafting Visual<br>Stories That Matter</h1>
+                            <p class="hero-subtitle mx-auto">From branding to UI/UX, I bring ideas to life with creativity and precision. Let's transform your vision into stunning visual experiences.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    View Portfolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-slide">
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="palette" width="16" height="16"></i>
+                                Creative Excellence
+                            </div>
+                            <h1 class="hero-title">Transform Your<br>Brand Identity</h1>
+                            <p class="hero-subtitle mx-auto">Stand out from the crowd with unique branding solutions that capture your essence and connect with your audience on a deeper level.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    View Portfolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="hero-slide">
+                        <div class="geometric-pattern triangle-1"></div>
+                        <div class="geometric-pattern triangle-2"></div>
+                        <div class="geometric-pattern triangle-3"></div>
+                        <div class="geometric-pattern triangle-4"></div>
+                        <div class="geometric-pattern triangle-5"></div>
+                        <div class="container text-center">
+                            <div class="hero-badge">
+                                <i data-lucide="trending-up" width="16" height="16"></i>
+                                Results-Driven
+                            </div>
+                            <h1 class="hero-title">Award-Winning<br>Design Solutions</h1>
+                            <p class="hero-subtitle mx-auto">Elevate your business with premium design services that drive growth, enhance user experience, and leave a lasting impression.</p>
+                            <div class="hero-buttons justify-content-center">
+                                <a href="#work" class="btn btn-primary-custom">
+                                    <i data-lucide="layout-grid" width="18" height="18"></i>
+                                    View Portfolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-custom">
+                                    Get Quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="hero-meta justify-content-center">
-                <i data-lucide="check-circle" width="16" height="16"></i>
-                Free consultation • Fast turnaround
-            </div>
+            
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -89,16 +167,16 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="https:///photo-156images.unsplash.com1070791-2526d30994b5?w=600&h=400&fit=crop" alt="Brand Identity Project">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&amp;h=400&amp;fit=crop" alt="Brand Identity Project">
                             <div class="project-overlay">
-                                <a href="project-detail.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
+                                <a href="project-01.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Branding</div>
                             <h3 class="project-title">Luxe Brand Identity</h3>
                             <p class="project-description">Complete brand overhaul for a luxury fashion house, including logo, visual identity, and style guidelines.</p>
-                            <a href="project-detail.html" class="project-link">
+                            <a href="project-01.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
@@ -112,14 +190,14 @@
                         <div class="project-image">
                             <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop" alt="UI/UX Design Project">
                             <div class="project-overlay">
-                                <span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span>
+                                <a href="project-02.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">UI/UX Design</div>
                             <h3 class="project-title">FinTech Mobile App</h3>
                             <p class="project-description">Modern mobile banking application with intuitive interfaces and seamless user experience design.</p>
-                            <a href="#" class="project-link">
+                            <a href="project-02.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
@@ -133,14 +211,14 @@
                         <div class="project-image">
                             <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=600&h=400&fit=crop" alt="Illustration Project">
                             <div class="project-overlay">
-                                <span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span>
+                                <a href="project-03.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Illustration</div>
                             <h3 class="project-title">Botanical Series</h3>
                             <p class="project-description">A collection of botanical illustrations for a premium wellness brand's packaging and marketing.</p>
-                            <a href="#" class="project-link">
+                            <a href="project-03.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
@@ -154,14 +232,14 @@
                         <div class="project-image">
                             <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop" alt="Web Design Project">
                             <div class="project-overlay">
-                                <span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span>
+                                <a href="project-04.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Web Design</div>
                             <h3 class="project-title">Creative Agency Site</h3>
                             <p class="project-description">Award-winning website design for a digital creative agency featuring bold visuals and smooth animations.</p>
-                            <a href="#" class="project-link">
+                            <a href="project-04.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
@@ -175,14 +253,14 @@
                         <div class="project-image">
                             <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&h=400&fit=crop" alt="Packaging Design Project">
                             <div class="project-overlay">
-                                <span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span>
+                                <a href="project-05.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Packaging</div>
                             <h3 class="project-title">Artisan Coffee Brand</h3>
                             <p class="project-description">Sustainable packaging design for an organic coffee roaster with eco-friendly materials and bold branding.</p>
-                            <a href="#" class="project-link">
+                            <a href="project-05.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
@@ -196,14 +274,14 @@
                         <div class="project-image">
                             <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?w=600&h=400&fit=crop" alt="Dashboard Design Project">
                             <div class="project-overlay">
-                                <span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span>
+                                <a href="project-06.html"><span><i data-lucide="arrow-right" width="16" height="16"></i> View Case Study</span></a>
                             </div>
                         </div>
                         <div class="project-content">
                             <div class="project-category">Dashboard Design</div>
                             <h3 class="project-title">Analytics Platform</h3>
                             <p class="project-description">Comprehensive data analytics dashboard with real-time visualization and intuitive data navigation.</p>
-                            <a href="#" class="project-link">
+                            <a href="project-06.html" class="project-link">
                                 View Case Study
                                 <i data-lucide="arrow-right" width="14" height="14"></i>
                             </a>
