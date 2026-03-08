@@ -1,7 +1,7 @@
 # DesignStudio - Creative Freelance Portfolio
 
 **Developer:** Emiliano Mendoza Peña  
-**Built with:** VSC + Blackbox AI  
+**Built with:** VSC + Blackbox IA  
 **Live Demo:** [https://demo-profile-26.netlify.app/](https://demo-profile-26.netlify.app/)
 
 A modern, responsive portfolio website for creative freelancers. Built with Bootstrap 5, featuring a clean design, multi-language support, and smooth animations.
